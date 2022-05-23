@@ -40,7 +40,6 @@ def calLoss(predictive, trainingSamples, train_N, testData):
 
     return (tn, gm)
 
-# test of Bernoulli Beta
 def test():
     trainingRandomState = 1
     testRandomState = 2
