@@ -22,6 +22,7 @@ def learn(CPclass, trainingSamples, max_N):
     trainingData = trainingSamples[0:max_N]
     return CPclass.train(trainingData)
 
+# calculat loss
 def calLoss(predictive, trainingSamples, train_N, testData):
     N = min(len(trainingSamples), train_N)
     tn = -1
